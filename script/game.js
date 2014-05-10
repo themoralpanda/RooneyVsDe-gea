@@ -2,7 +2,7 @@
 	var canvas = document.getElementById("football_pitch");
 	var ctx = canvas.getContext("2d");
 	
-	//document.body.appendChild(canvas);
+	
 	//loading the pitch
 	
 	var bgReady = false;
@@ -111,11 +111,11 @@
 			ctx.drawImage(degeaImage,degea.x,degea.y);
 
 		//filling the score
-		ctx.fillstyle ="rgb(250,250,250)";
+		ctx.fillstyle ="rgb(21,21,208)";
 		ctx.font="24px Helvetica";
 		ctx.textAlign = "left"
 		ctx.textBaseline = "top";
-		ctx.fillText("Goals Scored:" + goalscored ,32 , 32 );
+		ctx.fillText("Goals Scored --   " + goalscored ,32 , 32 );
 	};
 
 	var main = function(){
