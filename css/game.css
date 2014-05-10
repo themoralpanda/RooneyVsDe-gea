@@ -1,0 +1,27 @@
+#header_div{
+	background: yellow;
+	position: relative;
+	top : 10px;
+	left: 10px;
+	right:10px;
+	height:80px;
+	
+}
+
+#game_div{
+	
+	position:relative;
+	top:10px;
+	left:10px;
+	width:967px;
+	height:489px;
+}
+
+
+#football_pitch{
+	position:relative;
+	top:30px;
+	left:10px;
+	width:967px;
+	height:489px;
+}
