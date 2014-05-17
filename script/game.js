@@ -150,7 +150,7 @@
 			degea.y <= (rooney.y +32) )
 		{
 			window.alert("Game over .Your score is "+ String.valueOf(goalscored));
-			exit("Game over");
+			
 		}
 
 	};
