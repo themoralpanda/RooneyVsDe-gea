@@ -149,8 +149,8 @@
 			rooney.y <= (degea.y +32) &&
 			degea.y <= (rooney.y +32) )
 		{
-			window.alert("Game over .Your score is "+ String.valueOf(goalscored));
-			exit("Game over");
+			window.alert("Game over .Your score is "+goalscored);
+			exit("end");
 		}
 
 	};
@@ -199,9 +199,7 @@
 
 	function exit( status ) {
     var i;
-    if (typeof status === 'string') {
-        alert(status);
-    }
+    
     window.addEventListener('error', function (e) {e.preventDefault();e.stopPropagation();}, false);
     var handlers = [
         'copy', 'cut', 'paste',
